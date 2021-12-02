@@ -318,6 +318,32 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+/* Custom styling */
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+#page-numbers {
+  display: flex;
+  justify-content: center;
+}
+
+#page-numbers li {
+  list-style-type: none;
+  margin: 0 5px;
+  padding: 0 5px;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+#page-numbers li:hover, #page-numbers .selected {
+  color: var(--color-accent);
+  background-color: var(--color-primary);
+}
+
+
 /* Media queries */
 
 @media (max-width: 42rem) {
