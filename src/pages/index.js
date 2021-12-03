@@ -54,7 +54,7 @@ class BlogIndex extends React.Component {
     if (posts.length === 0) {
       return (
         <Layout location={location} title={siteTitle}>
-          <SEO title="All posts" />
+          <SEO title="All recipes" />
           <Bio />
           <p>
             No blog posts found. Add markdown posts to "content/blog" (or the
@@ -67,7 +67,7 @@ class BlogIndex extends React.Component {
   
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="All recipes" />
         <Bio />
         <ol style={{ listStyle: `none` }}>
           {paginatedPosts.map(post => {
