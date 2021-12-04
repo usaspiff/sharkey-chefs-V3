@@ -85,7 +85,7 @@ class BlogIndex extends React.Component {
                         <span itemProp="headline">{title}</span>
                       </Link>
                     </h2>
-                    <small>{post.frontmatter.date}</small>
+                    {/* <small>{post.frontmatter.date}</small> */}
                   </header>
                   <section>
                     <p
