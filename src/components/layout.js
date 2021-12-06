@@ -11,7 +11,6 @@ const Layout = ({ location, title, children }) => {
   if (isRootPath) {
     header = (
       <h1 className="main-heading">
-        
         <Link to="/">{title}
           <StaticImage
             className="bio-avatar"
@@ -71,18 +70,18 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
-        <StaticImage
-          className="bio-avatar"
-          layout="constrained"
-          formats={["auto", "webp", "avif"]}
-          src="../images/logo.png"
-          width={50}
-          height={50}
-          quality={95}
-          alt="logo"
-        />
-      </Link>
+        <Link className="header-link-home" to="/">Menu
+          <StaticImage
+            className="bio-avatar"
+            layout="constrained"
+            formats={["auto", "webp", "avif"]}
+            src="../images/logo.png"
+            width={50}
+            height={50}
+            quality={95}
+            alt="logo"
+          />
+        </Link>
     )
 
     footer = (

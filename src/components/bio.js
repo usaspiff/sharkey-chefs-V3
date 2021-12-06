@@ -33,7 +33,7 @@ const Bio = () => {
     <div className="bio">
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Created by <strong>{author.name}</strong> {author?.summary || null}
         </p>
       )}
     </div>
