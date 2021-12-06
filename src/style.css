@@ -301,6 +301,12 @@ a:focus {
   min-width: 50px;
 }
 
+.bio-avatar-blog {
+  margin-right: var(--spacing-4);
+  margin-bottom: var(--spacing-0);
+  min-width: 50px;
+}
+
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
@@ -349,8 +355,8 @@ a:focus {
 
 #page-numbers li {
   list-style-type: none;
-  margin: 0 5px;
-  padding: 0 5px;
+  margin: 0 10px;
+  padding: 0 15px;
   cursor: pointer;
   color: var(--color-primary);
 }

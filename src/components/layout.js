@@ -27,52 +27,13 @@ const Layout = ({ location, title, children }) => {
     )
 
     footer = (
-      <section className="container">
-          <nav className="flex">
-            <a
-              href="https://github.com/usaspiff/sharkey-chefs-V3"
-              title="Open Source on Github"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="img"
-            >
-              <StaticImage
-                className="footer-icon"
-                layout="constrained"
-                formats={["auto", "webp", "avif"]}
-                src="../images/github.png"
-                width={30}
-                height={30}
-                quality={100}
-                alt="github"
-              />
-            </a>
-            <a
-              href="https://netlify.com"
-              title="Hosted on Netlify"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="img"
-            >
-              <StaticImage
-                className="footer-icon"
-                layout="constrained"
-                formats={["auto", "webp", "avif"]}
-                src="../images/netlify.png"
-                width={30}
-                height={30}
-                quality={100}
-                alt="netlify"
-              />
-            </a>
-          </nav>
-        </section>
-    )
+      ``
+      )
   } else {
     header = (
-        <Link className="header-link-home" to="/">Menu
+        <Link className="header-link-home" to="/">
           <StaticImage
-            className="bio-avatar"
+            className="bio-avatar-blog"
             layout="constrained"
             formats={["auto", "webp", "avif"]}
             src="../images/logo.png"
@@ -80,7 +41,7 @@ const Layout = ({ location, title, children }) => {
             height={50}
             quality={95}
             alt="logo"
-          />
+          />Menu
         </Link>
     )
 
