@@ -7,6 +7,8 @@ import kebabCase from "lodash/kebabCase"
 // Components
 import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
+import Layout from "../components/layout"
+// import Seo from "../components/seo"
 
 const TagsPage = ({
   data: {
@@ -15,7 +17,9 @@ const TagsPage = ({
       siteMetadata: { title },
     },
   },
+  location,
 }) => (
+  <Layout location={location}>
   <div>
     <Helmet title={title} />
     <div>
@@ -31,6 +35,7 @@ const TagsPage = ({
       </ul>
     </div>
   </div>
+  </Layout>
 )
 
 TagsPage.propTypes = {
