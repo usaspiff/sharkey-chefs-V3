@@ -13,9 +13,10 @@ description: "Simple filling soup for the Fall"
 - 1 medium butternut squash, peeled and chopped into 1” cubes
 - 4 cups chicken or vegetable stock (please see stock recipe page)
 - 1 yellow onion
-- 1 small apple or pear, peeled and chopped into small cubes
+- 1 apple or pear, peeled and chopped into small cubes
 - 1 TBSP olive oil
 - Salt to taste
+- Mapple syrup to taste
 
 ### Instructions
 
@@ -25,4 +26,4 @@ description: "Simple filling soup for the Fall"
 - Add in the apple or pear and cover for an additional 15 minutes.
 - With a hand-held blender (or very carefully in a food processor), puree contents of pot.
 - Return to simmer, partially covered for 20 minutes.
-- Add salt to taste and serve.
+- Add salt and mapple syrup to taste and serve.
