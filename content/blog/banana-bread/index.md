@@ -5,9 +5,11 @@ date: "2019-09-01"
 title: "GF Vegan Banana Bread"
 published: true
 tags: ['deserts']
-description: "Prep: 5 mins. Bake no more than 20 minutes."
+description: "Delicious, moist, banana bread."
 ---
 ![banana bread](./banana-bread.jpg)
+Prep: 5 mins. Bake no more than 20 minutes.
+
 ### Ingredients
 
 - 2 cups gluten-free flour mix (Use Bob’s Redmill All Purpose GF baking flour)
